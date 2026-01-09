@@ -23,6 +23,9 @@ nav .menu a{
     color: black;
     
 }
+list a{
+    text-decoration: none;
+}
 .btn{
     background-color: green;
     color: white;
