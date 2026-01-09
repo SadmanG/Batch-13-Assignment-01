@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+}
+nav{
+    margin: 0 auto;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+nav .menu a{
+    text-decoration: none;
+    color: black;
+    
+}
+.btn{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+}
+.bgi{
+    background-image: url(assets/hero-bg.png);
+    align-items: center;
+    justify-content: center;
+}
+.white{
+    color: #FFFFFF;
+}
+.green{
+    color: green;
+}
