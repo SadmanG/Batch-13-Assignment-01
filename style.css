@@ -3,13 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bgmRed{
+    background-color: #F95555;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.FAFAFA{
+    color:#FAFAFA ;
+}
+
+.lastBgm{
+    background-color: #001931;
+}
+
+.bullets{
+    list-style-type: none;
+}
+
+.bgd{
+    background-color: #F7F6F2;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+.green{
+    color: green;
+}
+
+.cards{
+    display: flex;
+}
+
+.center{
+    text-align: center;
+}
+
 header{
     background-color: #FFFFFF;
     padding-top: 16px;
 }
+
 nav{
     margin: 0 auto;
 }
+
 nav .menu{
     display: flex;
     list-style-type: none;
@@ -18,32 +59,31 @@ nav .menu{
     justify-content: space-around;
     background-color: #FFFFFF;
 }
+
 nav .menu a{
     text-decoration: none;
     color: black;
     
 }
-list a{
-    text-decoration: none;
-}
+
 .btn{
     background-color: green;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 16px;
 }
+
 .bgi{
     background-image: url(assets/hero-bg.png);
+    height: 674px;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
-.white{
-    color: #FFFFFF;
-}
-.green{
-    color: green;
-}
-.cards{
-    display: flex;
+
+.early{
+    border-radius: 1000px;
+    padding: 12px;
+    color: #30B868;
 }
